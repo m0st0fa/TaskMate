@@ -1,0 +1,10 @@
+vendor/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# Local secrets
+/config/mail.local.php
+/config/database.local.php
